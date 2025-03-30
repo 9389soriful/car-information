@@ -1,0 +1,92 @@
+[
+  {
+    "car_id": "1",
+    "car_name": "Tesla Model S",
+    "car_img": "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "5",
+    "car_price": "$89,990",
+    "car_title": "Luxury Electric Sedan",
+    "car_description": "The Tesla Model S is an all-electric luxury sedan with long-range capabilities and cutting-edge technology."
+  },
+  {
+    "car_id": "2",
+    "car_name": "BMW M4",
+    "car_img": "https://plus.unsplash.com/premium_photo-1686730540270-93f2c33351b6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "3",
+    "car_price": "$78,800",
+    "car_title": "High-Performance Sports Coupe",
+    "car_description": "The BMW M4 delivers exceptional performance with a twin-turbocharged engine and precise handling."
+  },
+  {
+    "car_id": "3",
+    "car_name": "Ford Mustang GT",
+    "car_img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "8",
+    "car_price": "$42,495",
+    "car_title": "Iconic American Muscle Car",
+    "car_description": "The Ford Mustang GT is a legendary muscle car with a powerful V8 engine and aggressive styling."
+  },
+  {
+    "car_id": "4",
+    "car_name": "Audi R8",
+    "car_img": "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "2",
+    "car_price": "$158,600",
+    "car_title": "Supercar with V10 Engine",
+    "car_description": "The Audi R8 is a high-performance supercar with a naturally aspirated V10 engine and quattro AWD."
+  },
+  {
+    "car_id": "5",
+    "car_name": "Mercedes-Benz G-Wagon",
+    "car_img": "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "4",
+    "car_price": "$139,900",
+    "car_title": "Luxury Off-Road SUV",
+    "car_description": "The Mercedes G-Wagon combines luxury with off-road capability, featuring a bold design and powerful engine."
+  },
+  {
+    "car_id": "6",
+    "car_name": "Chevrolet Camaro ZL1",
+    "car_img": "https://images.unsplash.com/photo-1590362891991-f776e747a588?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "6",
+    "car_price": "$72,100",
+    "car_title": "Track-Ready American Muscle",
+    "car_description": "The Camaro ZL1 is a high-performance muscle car with a supercharged V8 and aggressive aerodynamics."
+  },
+  {
+    "car_id": "7",
+    "car_name": "Lamborghini Huracán",
+    "car_img": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "1",
+    "car_price": "$206,485",
+    "car_title": "Exotic Italian Supercar",
+    "car_description": "The Lamborghini Huracán is a breathtaking supercar with a V10 engine and state-of-the-art aerodynamics."
+  },
+  {
+    "car_id": "8",
+    "car_name": "Porsche 911 Turbo S",
+    "car_img": "https://images.unsplash.com/photo-1490641815614-b45106d6dd04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "3",
+    "car_price": "$207,000",
+    "car_title": "Precision Engineered Sports Car",
+    "car_description": "The Porsche 911 Turbo S offers blistering speed, precise handling, and an iconic design."
+  },
+  {
+    "car_id": "9",
+    "car_name": "Toyota Supra",
+    "car_img": "https://images.unsplash.com/photo-1608341089966-92c09e62214f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "7",
+    "car_price": "$53,500",
+    "car_title": "Japanese Sports Legend",
+    "car_description": "The Toyota Supra is a legendary sports car with turbocharged power and excellent driving dynamics."
+  },
+  {
+    "car_id": "10",
+    "car_name": "Nissan GT-R",
+    "car_img": "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "car_stock": "2",
+    "car_price": "$116,040",
+    "car_title": "Godzilla of Performance Cars",
+    "car_description": "The Nissan GT-R is an iconic performance car with AWD and a twin-turbo V6 for extreme speed."
+  }
+]
