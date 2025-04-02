@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const CarBody = ({ car }) => {
   const [cardDet, setCardDet] = useState([]); // state to store the car id
   const [showDet, setShowDet] = useState(null);
+  const [modalUpdate, setModalUpdate] = useState(null);
   const {
     car_id,
     car_name,
@@ -21,10 +22,14 @@ const CarBody = ({ car }) => {
       });
   }, []);
   const detailsHandle = (car_id) => {
-    const cardDetails = cardDet.find((car) => car.car_id === car_id);
-    setShowDet(cardDetails);
+    setModalUpdate(car_id);
   };
-
+  useEffect(() => {
+    const carDetails = cardDet.find((car) => car.car_id === modalUpdate);
+    if(carDetails){
+      setShowDet(carDetails);
+    }
+  }, [modalUpdate , cardDet]);
   return (
     <div className="p-4">
       <dialog id="my_modal_3" className="modal">
@@ -76,7 +81,9 @@ const CarBody = ({ car }) => {
           <button
             onClick={() => {
               detailsHandle(car_id),
-                document.getElementById("my_modal_3").showModal();
+                setTimeout(() => {
+                  document.getElementById("my_modal_3").showModal();
+                }, 100);
             }}
             className="border border-black px-4 py-2 rounded-md cursor-pointer hover:bg-gray-300"
           >
